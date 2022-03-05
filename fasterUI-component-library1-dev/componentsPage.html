@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FasterUI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./components/components.css">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/6E06FEE9-867C-426F-AC90-6E30B1BD1813.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="nav" aria-label="true">
+        <div class="mobile-icon-"><i class="mobile-icon fa fa-bars"></i></div>
+        <div class="closeIcon">X</div>
+        <div class="logo">FasterUI</div>
+        <div class="links">
+            <a href="index.html">Home</a>
+        </div>
+    </nav>
+
+    <div class="components-container">
+        <div class="sideBar">
+            <div>Getting Started</div>
+            <a href="#usage-container">Usage</a>
+            <div>Components</div>
+            <a href="#avatar-container">Avatar</a>
+            <a href="#alert-container">Alert</a>
+            <a href="#badge-container">Badge</a>
+            <a href="#button-container">Button</a>
+            <a href="#card-container">Card</a>
+            <a href="#image-container">Image</a>
+            <a href="#input-container">Input</a>
+            <a href="#textUtilities-container">Text Utilities</a>
+            <a href="#list-container">List</a>
+            <a href="#navigation-container">Navigation</a>
+            <a href="#modal-container">Modal</a>
+            <a href="#simplified-grid-container">Simplified Grid</a>
+            <a href="#rating-container">Ratings</a>
+            <a href="#range-slider-container">Range Slider</a>
+            <a href="#toast-container">Toast</a>
+        </div>
+
+        <div class="components">
+
+            <!-- usage section -->
+            <section class="section usage-container" id='usage-container'>
+                <h1>Usage</h1>
+                <p class="section-para">To start using the components in your project import the stylesheet in your css or html file.</p>
+                <iframe class="iframe usage-iframe" aria-label="true"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520CSS%2520styleheet%250A%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Ffasterui.netlify.app%252Fcomponents%252Fcomponents.css%2522%253E%250A%2520%2520%250A%252F%252F%2520lineIcons%2520CDN%250A%250A%253Clink%2520href%253D%2522https%253A%252F%252Fcdn.lineicons.com%252F3.0%252Flineicons.css%2522%2520rel%253D%2522stylesheet%2522%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                 <p class="section-para">You can also import individual components if you only need a few of them. The links to import individual components can be found in their respective pages.</p>  
+            </section>
+
+            <!-- avatar section -->
+            <section class="section" id="avatar-container">
+                <h1>Avatar</h1>
+                <h2>Standard Avatar :</h2>
+                <div class="avatars">
+                    <img class="avatar avatar-xl" src="https://picturepan2.github.io/spectre/img/avatar-2.png" alt="avatar">
+                    <img class="avatar avatar-lg" src="https://picturepan2.github.io/spectre/img/avatar-3.png" alt="avatar">
+                    <img class="avatar avatar-std" src="https://picturepan2.github.io/spectre/img/avatar-1.png" alt="avatar">
+                    <img class="avatar avatar-sm" src="https://picturepan2.github.io/spectre/img/avatar-4.png" alt="avatar">
+                    <img class="avatar avatar-xs" src="https://picturepan2.github.io/spectre/img/avatar-5.png" alt="avatar">
+                </div>
+
+                <h2>Image Avatar</h2>
+                <div class="avatars">
+                   <img class="avatar avatar-xl" src="https://deploy-preview-21--enztron-dev-branch.netlify.app/Icons-and-Images/Avatars/blue-illustration-avatar.svg" alt="avatar">
+                   <img class="avatar avatar-lg" src="https://deploy-preview-21--enztron-dev-branch.netlify.app/Icons-and-Images/Avatars/blue-illustration-avatar.svg" alt="avatar">
+                   <img class="avatar avatar-std" src="https://deploy-preview-21--enztron-dev-branch.netlify.app/Icons-and-Images/Avatars/blue-illustration-avatar.svg" alt="avatar">
+                   <img class="avatar avatar-sm" src="https://deploy-preview-21--enztron-dev-branch.netlify.app/Icons-and-Images/Avatars/blue-illustration-avatar.svg" alt="avatar">
+                   <img class="avatar avatar-xs" src="https://deploy-preview-21--enztron-dev-branch.netlify.app/Icons-and-Images/Avatars/blue-illustration-avatar.svg" alt="avatar">
+               </div>
+                <p>The avatar component has 5 sizes, <span>avatar-xl</span> (4em), <span>avatar-lg</span> (3em), <span>avatar-std</span> (2em) <span>avatar-sm</span> (1.5em), and <span>avatar-xs</span> (1em).</p>
+                <iframe class="iframe standard-avatar-iframe1"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar-xl%2522%2520src%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-2.png%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-3.png%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-std%2522%2520src%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-1.png%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-4.png%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-xs%2522%2520src%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-5.png%2522%2520alt%253D%2522avatar%2522%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <h2>Text Avatar</h2>
+                <div class="avatars">
+                    <div class="avatar text-avatar avatar-xl">OP</div>
+                    <div class="avatar text-avatar avatar-lg">OP</div>
+                    <div class="avatar text-avatar avatar-std">OP</div>
+                </div>
+
+                <iframe class="iframe standard-avatar-iframe2"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=auto&width=666&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520text-avatar%2520avatar-xl%2522%253EOP%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520text-avatar%2520avatar-lg%2522%253EOP%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520text-avatar%2520avatar-std%2522%253EOP%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+           </section>
+
+           <!-- alert section -->
+           <section class="section" id="alert-container">
+            <h1>Alerts</h1>
+            <h2>Standard Alerts :</h2>
+            <div class="alerts-container">
+                <div class="alert success-alert">A simple success alert.</div>
+                <div class="alert danger-alert">A simple danger alert.</div>
+                <div class="alert warning-alert">A simple warning alert.</div>
+                <div class="alert info-alert">A simple info alert.</div>
+            </div>
+            <p class="section-para">The alert component has four variants <span>alert-success</span>, <span>alert-danger</span>, <span>alert-warning</span> and <span>alert-info</span>.</p>
+            <iframe class="iframe alert-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520success-alert%2522%253EA%2520simple%2520success%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520danger-alert%2522%253EA%2520simple%2520danger%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520warning-alert%2522%253EA%2520simple%2520warning%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520info-alert%2522%253EA%2520simple%2520info%2520alert.%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            </section>
+
+            <!-- badge section -->
+            
+            <section class="section" id="badge-container">
+                <h2 class="status-avatars">Avatars with Badge :</h2>
+                <div class="avatars">
+                  <div>
+                   <img  class="avatar avatar-xl" src="https://picturepan2.github.io/spectre/img/avatar-2.png" alt="avatar">
+                   <span class="status-presence online">.</span>
+                  </div>
+
+                  <div>
+                   <img  class="avatar avatar-lg" src="https://picturepan2.github.io/spectre/img/avatar-5.png" alt="avatar">
+                   <span class="status-presence offline">.</span>
+                  </div>
+    
+                  <div>
+                   <img  class="avatar avatar-std" src="https://picturepan2.github.io/spectre/img/avatar-4.png" alt="avatar">
+                   <span class="status-presence dnd">.</span>
+                  </div>
+               </div>
+
+               <p class="section-para status-avatar-paragraph">Avatars support presence indicators. There are three indicators <span>online</span>, <span>offline</span> and <span>dnd</span>.</p>
+               <iframe class="iframe status-avatar-iframe"
+               src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%2520%253Cimg%2520%2520class%253D%2522avatar%2520avatar-xl%2522%2520src%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-2.png%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522status-presence%2520online%2522%253E.%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%253E%250A%2520%2520%2520%253Cimg%2520%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-5.png%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522status-presence%2520offline%2522%253E.%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%253E%250A%2520%2520%253Cimg%2520%2520class%253D%2522avatar%2520avatar-std%2522%2520src%253D%2522https%253A%252F%252Fpicturepan2.github.io%252Fspectre%252Fimg%252Favatar-4.png%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522status-presence%2520dnd%2522%253E.%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+               sandbox="allow-scripts allow-same-origin">
+               </iframe>
+    
+               <h2>Icons With Badge</h2>
+               <div class="icons-container">
+                   <div class="icon cart-icon">
+                    <i class="lni lni-cart-full"></i>
+                    <span>4</span>
+                   </div>
+    
+                   <div class="icon messanger-icon">
+                    <i class="lni lni-facebook-messenger"></i>
+                    <span>2</span>
+                   </div>
+    
+                   <div class="icon discord-icon">
+                    <i class="lni lni-discord"></i>
+                    <span>12</span>
+                   </div>
+               </div>
+
+                <p class="section-para">The badge component can be used with and without the badge count</p>
+                <iframe class="iframe icon-badge-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=base16-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522icon%2520cart-icon%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522lni%2520lni-cart-full%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253E4%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522icon%2520messanger-icon%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522lni%2520lni-facebook-messenger%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253E2%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522icon%2520discord-icon%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522lni%2520lni-discord%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253E12%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+               </section>
+
+                  <!-- button section -->
+
+            <section class="section" id="button-container">
+                <h1>Buttons</h1>
+                <h2>Solid Buttons</h2>
+    
+                <div class="btns">
+                    <button class="btn primary-btn">Primary</button>
+                    <button class="btn secondary-btn">Secondary</button>
+                    <button class="btn danger-btn">Danger</button>
+                </div>
+                <p>The solid button component is available in three variants <span>btn-primary</span>, <span>btn-secondary</span> and <span>btn-danger</span>.</p>
+                <iframe class="iframe solid-btn-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-btn%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520danger-btn%2522%253EDanger%253C%252Fbutton%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+    
+                <h2>Outline Buttons</h2>
+                <div class="btns">
+                    <button class="btn outline-primary-btn">Primary</button>
+                    <button class="btn outline-secondary-btn">Secondary</button>
+                    <button class="btn outline-danger-btn">Danger</button>
+                </div>
+                <p>The button component is available in three variants <span>outline-primary-btn</span>, <span>outline-secondary-btn</span> and <span>outline-danger-btn</span>.</p>
+                <iframe class="iframe outline-btn-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520outline-primary-btn%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outline-secondary-btn%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outline-danger-btn%2522%253EDanger%253C%252Fbutton%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+    
+                <h2>Icon Buttons</h2>
+                <div class="btns">
+                    <button class="btn btn-icon primary-btn"><span><i class="lni lni-cart"></i></span>  Add to cart</button>
+                    <button class="btn btn-icon danger-btn"><span><i class="lni lni-trash-can"></i></span>  Delete</button>
+                </div>
+                <p>Add the <span>btn-icon</span> class to the button element and a img tag with the link to the icon.</p>
+                <iframe class="iframe icon-btn-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=auto&width=906.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522icon-btn%2522%253E%253Ci%2520class%253D%2522lni%2520lni-heart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522icon-btn%2522%253E%253Ci%2520class%253D%2522lni%2520lni-share-alt-1%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522icon-btn%2522%253E%253Ci%2520class%253D%2522lni%2520lni-line-dotted%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                </iframe>
+    
+                <h2>Link Buttons</h2>
+                <div class="btns">
+                    <button class="btn link-primary-btn primary-btn"><a href="#">Primary Link Button</a></button>
+                    <button class="btn link-outline-btn outline-primary-btn"><a href="#">Primary Link Button</a></button>
+                </div>
+                <iframe class="iframe link-btn-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=693.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520link-primary-btn%2520primary-btn%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EPrimary%2520Link%2520Button%253C%252Fa%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520link-outline-btn%2520outline-primary-btn%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EPrimary%2520Link%2520Button%253C%252Fa%253E%253C%252Fbutton%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+    
+                <h2>Icon Buttons</h2>
+    
+                <div class="btns">
+                    <button class="icon-btn"><i class="lni lni-heart" aria-hidden="true"></i></button>
+                    <button class="icon-btn"><i class="lni lni-share-alt-1" aria-hidden="true"></i></button>
+                    <button class="icon-btn"><i class="lni lni-line-dotted" aria-hidden="true"></i></button>
+                </div>
+    
+                <iframe class="iframe icon-btn-iframe2"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=1047.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522icon-btn%2522%253E%253Ci%2520class%253D%2522lni%2520lni-heart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522icon-btn%2522%253E%253Ci%2520class%253D%2522lni%2520lni-share-alt-1%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522icon-btn%2522%253E%253Ci%2520class%253D%2522lni%2520lni-line-dotted%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+    
+                <h2>Floating Action Button</h2>
+                <p>It is the button which floats with the UI and represents the primary action in an application <br>
+                    Example : It is the + button on this page that is floating with scroll</p>
+                    <button class="icon-btn float-action-btn"><i class="lni lni-plus"></i></button>
+    
+                    <iframe class="iframe floating-btn-iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=auto&width=906.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522icon-btn%2520float-action-btn%2522%253E%253Ci%2520class%253D%2522lni%2520lni-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+               </section>
+
+            <!-- card section -->
+
+            <section class="section" id="card-container">
+                <h1>Cards</h1>
+                <h2>Card with badges</h2>
+    
+                <div class="card">
+                    <div class="img-content">
+                        <p class="text-badge">Trending</p>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61XPTRJZcCL._AC_UL450_SR450,320_.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <h2 class="item-name">OnePlus Smart Band</h2> 
+                        <p class="item-desc">13 Exercise Modes</p>
+                        
+                        <div class="prices">
+                            <span class="price">₹12000</span>
+                            <span class="initial-price">₹20000</span>
+                            <span class="discount">( 40% )</span>
+                        </div>
+                    </div>              
+                    <button class="add-to-cart">Add to cart</button>
+                </div>
+    
+                <iframe class="iframe normal-card-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FCard%2520With%2520Badge%250A%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-badge%2522%253ETrending%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimages-eu.ssl-images-amazon.com%252Fimages%252FI%252F61XPTRJZcCL._AC_UL450_SR450%252C320_.jpg%2522%2520alt%253D%2522img%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522item-name%2522%253EOnePlus%2520Smart%2520Band%253C%252Fh2%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522item-desc%2522%253E13%2520Exercise%2520Modes%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522prices%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%25E2%2582%25B912000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522initial-price%2522%253E%25E2%2582%25B920000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%28%252040%2525%2520%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522add-to-cart%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+    
+                <h2>Card with dismiss</h2>
+    
+                <div class="card">
+                    <div class="img-content">
+                        <p class="text-badge">Trending </p>
+                        <p class="dismiss-btn">X</p>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61XPTRJZcCL._AC_UL450_SR450,320_.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <h2 class="item-name">OnePlus Smart Band</h2> 
+                        <p class="item-desc">13 Exercise Modes</p>
+                        
+                        <div class="prices">
+                            <span class="price">₹12000</span>
+                            <span class="initial-price">₹20000</span>
+                            <span class="discount">( 40% )</span>
+                        </div>
+                    </div>              
+                    <button class="add-to-cart">Add to cart</button>
+                </div>
+    
+                <iframe class="iframe dismiss-card-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FCard%2520With%2520Dismiss%2520btn%250A%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-badge%2522%253ETrending%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522dismiss-btn%2522%253EX%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimages-eu.ssl-images-amazon.com%252Fimages%252FI%252F61XPTRJZcCL._AC_UL450_SR450%252C320_.jpg%2522%2520alt%253D%2522img%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522item-name%2522%253EOnePlus%2520Smart%2520Band%253C%252Fh2%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522item-desc%2522%253E13%2520Exercise%2520Modes%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522prices%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%25E2%2582%25B912000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522initial-price%2522%253E%25E2%2582%25B920000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%28%252040%2525%2520%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522add-to-cart%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h2>Card with Overlay</h2>
+    
+                <div class="card">
+                    <div class="img-content">
+                        <div class="overlay-text">Out Of Stock</div>                 
+                        <img class="overlay-img" src="https://images-eu.ssl-images-amazon.com/images/I/61XPTRJZcCL._AC_UL450_SR450,320_.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <h2 class="item-name">OnePlus Smart Band</h2> 
+                        <p class="item-desc">13 Exercise Modes</p>
+                        
+                        <div class="prices">
+                            <span class="price">₹12000</span>
+                            <span class="initial-price">₹20000</span>
+                            <span class="discount">( 40% )</span>
+                        </div>
+                    </div>              
+                    <button class="add-to-cart">Add to cart</button>
+                </div>
+    
+                <iframe class="iframe overlay-card-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FCard%2520With%2520Overlay%250A%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-text%2522%253EOut%2520Of%2520Stock%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522overlay-img%2522%2520src%253D%2522https%253A%252F%252Fimages-eu.ssl-images-amazon.com%252Fimages%252FI%252F61XPTRJZcCL._AC_UL450_SR450%252C320_.jpg%2522%2520alt%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522item-name%2522%253EOnePlus%2520Smart%2520Band%253C%252Fh2%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522item-desc%2522%253E13%2520Exercise%2520Modes%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522prices%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%25E2%2582%25B912000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522initial-price%2522%253E%25E2%2582%25B920000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%28%252040%2525%2520%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522add-to-cart%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+    
+                
+                <h2>Text Only Card</h2>
+    
+                <div class="card">
+                    <div class="card-content">
+                        <h2 class="item-name">OnePlus Smart Band</h2> 
+                        <p class="item-desc">13 Exercise Modes</p>
+                        
+                        <div class="prices">
+                            <span class="price">₹12000</span>
+                            <span class="initial-price">₹20000</span>
+                            <span class="discount">( 40% )</span>
+                        </div>
+                    </div>              
+                    <button class="add-to-cart">Add to cart</button>
+                </div>
+    
+                <iframe class="iframe text-only-card-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FCard%2520With%2520Overlay%250A%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522item-name%2522%253EOnePlus%2520Smart%2520Band%253C%252Fh2%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522item-desc%2522%253E13%2520Exercise%2520Modes%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522prices%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%25E2%2582%25B912000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522initial-price%2522%253E%25E2%2582%25B920000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%28%252040%2525%2520%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522add-to-cart%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+     
+    
+                <h2>Horizontal Card</h2>
+    
+                 <div class="card horizontal-card">
+                    <div class="img-content">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61XPTRJZcCL._AC_UL450_SR450,320_.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <h2 class="item-name">OnePlus Smart Band</h2> 
+                        <p class="item-desc">13 Exercise Modes</p>
+                        
+                        <div class="prices">
+                            <span class="price">₹12000</span>
+                            <span class="initial-price">₹20000</span>
+                            <span class="discount">(40%)</span>
+                        </div>
+                        <button class="add-to-cart">Add to cart</button>
+                    </div>              
+                </div>
+    
+                <iframe class="iframe horizontal-card-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FHorizhontal%2520Card%250A%250A%253Cdiv%2520class%253D%2522card%2520horizhontal-card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-content%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimages-eu.ssl-images-amazon.com%252Fimages%252FI%252F61XPTRJZcCL._AC_UL450_SR450%252C320_.jpg%2522%2520alt%253D%2522img%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522item-name%2522%253EOnePlus%2520Smart%2520Band%253C%252Fh2%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522item-desc%2522%253E13%2520Exercise%2520Modes%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522prices%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%25E2%2582%25B912000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522initial-price%2522%253E%25E2%2582%25B920000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%2840%2525%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522add-to-cart%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+    
+                <h2>Shadow Card</h2>
+    
+                <div class="card">
+                    <div class="img-content">
+                        <p class="text-badge">Trending</p>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61XPTRJZcCL._AC_UL450_SR450,320_.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <h2 class="item-name">OnePlus Smart Band</h2> 
+                        <p class="item-desc">13 Exercise Modes</p>
+                        
+                        <div class="prices">
+                            <span class="price">₹12000</span>
+                            <span class="initial-price">₹20000</span>
+                            <span class="discount">( 40% )</span>
+                        </div>
+                    </div>              
+                    <button class="add-to-cart">Add to cart</button>
+                </div>
+    
+                <iframe class="iframe shadow-card-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FCard%2520With%2520Badge%250A%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-badge%2522%253ETrending%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimages-eu.ssl-images-amazon.com%252Fimages%252FI%252F61XPTRJZcCL._AC_UL450_SR450%252C320_.jpg%2522%2520alt%253D%2522img%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522item-name%2522%253EOnePlus%2520Smart%2520Band%253C%252Fh2%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522item-desc%2522%253E13%2520Exercise%2520Modes%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522prices%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%25E2%2582%25B912000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522initial-price%2522%253E%25E2%2582%25B920000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%28%252040%2525%2520%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522add-to-cart%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+     
+    
+               </section>
+
+            <!-- image section -->
+
+            <section class="section" id="image-container">
+                <h1>Images</h1>
+                <h2>Responsive Images</h2>
+                <p>It is very important to use responsive images in our <br>
+                 To create responsive image you need to add <span>image-responsive</span> class to the element</p>
+ 
+                 <div class="image-responsive">
+                     <img src="https://images.pexels.com/photos/2353413/pexels-photo-2353413.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="responsive-img">
+                 </div>
+ 
+                 <iframe class="iframe responsive-img-iframe"
+                 src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FResponsive%2520Image%250A%250A%253Cdiv%2520class%253D%2522image-responsive%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimages.pexels.com%252Fphotos%252F2353413%252Fpexels-photo-2353413.jpeg%253Fauto%253Dcompress%2526cs%253Dtinysrgb%2526dpr%253D1%2526w%253D500%2522%2520alt%253D%2522responsive-img%2522%253E%250A%253C%252Fdiv%253E"
+                 
+                 sandbox="allow-scripts allow-same-origin">
+                 </iframe>
+ 
+                 <h2>Circular Image</h2>
+                 <p>To generate circular image you need to add <span>image-circular</span> class to the element.</p>
+                 <div class="image-circular">
+                   <img src="https://images.pexels.com/photos/2353413/pexels-photo-2353413.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="responsive-circular-img">
+                 </div>
+ 
+                 <iframe class="iframe circular-img-iframe"
+                 src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FResponsive%2520Circular%2520Image%250A%250A%253Cdiv%2520class%253D%2522image-circular%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimages.pexels.com%252Fphotos%252F2353413%252Fpexels-photo-2353413.jpeg%253Fauto%253Dcompress%2526cs%253Dtinysrgb%2526dpr%253D1%2526w%253D500%2522%2520alt%253D%2522responsive-circular-img%2522%253E%250A%253C%252Fdiv%253E"
+                 sandbox="allow-scripts allow-same-origin">
+                 </iframe>
+            </section>
+
+            <!-- input section -->
+
+            <section class="section" id="input-container">
+                <h1>Inputs</h1>
+                <p>The input tag specifies an input field where the user can enter data. The input element is the most important form element. The input element can be displayed in several ways, depending on the type attribute like <span>text, radio, checkbox</span> etc. <br> You can also disabled them by using appropriate classes.</p>
+                <h2>Input Field</h2>
+                <p>This type of field will help you to get some information from user like name, email etc.</p>
+    
+                <div class="inputs">
+                    <input type="text" class="input-field" placeholder="Enter Your Text Here.">
+                    <input type="text" class="input-field" disabled placeholder="Enter Your Text Here.">
+                </div>
+    
+                <iframe class="iframe input-field-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-field%2522%2520placeholder%253D%2522Enter%2520Your%2520Text%2520Here.%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-field%2522%2520disabled%2520placeholder%253D%2522Enter%2520Your%2520Text%2520Here.%2522%253E%250A"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+    
+                 <h2>Input With Error Style</h2>
+                 <p>This error styling will help you to show instant response to user when you will add some validation to your form.</p>
+    
+                 <div class="input-with-error">
+                     <input type="email" class="err-input" placeholder="Enter Your Text Here.">
+                     <p class="err-msg">Please Enter Correct Email.</p>
+                 </div>
+    
+                 <iframe class="iframe input-with-error-iframe"
+                 src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cinput%2520type%253D%2522email%2522%2520placeholder%253D%2522Enter%2520Your%2520Text%2520Here.%2522%253E%250A%253Cp%2520class%253D%2522err-msg%2522%253EPlease%2520Enter%2520Correct%2520Email.%253C%252Fp%253E%250A"
+                 sandbox="allow-scripts allow-same-origin">
+                 </iframe>
+                
+                 <h2>Radio Input Button</h2>
+                 <p>Radio buttons allow the user to select only one option from all given options. one thing keep in mind while using radio button the name attribute for each input must be same</p>
+    
+                 <div class="radio-inputs">
+                     <div class="radio-input">
+                         <input type="radio" class="radio circle" name="demo" value="Dogs">Dogs
+                     </div>
+                     <div class="radio-input">
+                         <input type="radio" class="radio circle" name="demo" value="Crow">Crow
+                     </div>
+                     <div class="radio-input">
+                         <input type="radio" class="radio circle" name="demo" value="Goat">Goat
+                     </div>
+                     <div class="radio-input">
+                         <input type="radio" class="radio circle" name="demo" value="Swan" disabled>Swan
+                     </div>
+                    
+                 </div>
+    
+                 <iframe class="iframe radio-input-iframe" 
+                 src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522radio%2520circle%2522%2520name%253D%2522demo%2522%2520value%253D%2522Dogs%2522%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522radio%2520circle%2522%2520name%253D%2522demo%2522%2520value%253D%2522Crow%2522%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522radio%2520circle%2522%2520name%253D%2522demo%2522%2520value%253D%2522Goat%2522%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522radio%2520circle%2522%2520name%253D%2522demo%2522%2520value%253D%2522Swan%2522%2520disabled%253E%250A"
+                 sandbox="allow-scripts allow-same-origin">
+                 </iframe>
+    
+                 <h2>Checkbox Input</h2>
+                 <p>Checkboxes allow the user to select one or more option from all given options.</p>
+    
+                 <div class="checkbox-inputs">
+                     <div class="check-input">
+                         <input type="checkbox" class="checkbox" value="Dogs" name="demo1">Dogs
+                     </div>
+                     <div class="check-input">
+                         <input type="checkbox" class="checkbox" value="Swan" name="demo1">Swan
+                     </div>
+                     <div class="check-input">
+                         <input type="checkbox" class="checkbox" value="Goat" name="demo1">Goat
+                     </div>
+                     <div class="check-input">
+                         <input type="checkbox" class="checkbox" value="Crow" name="demo1" disabled>Crow
+                     </div>
+                 </div>
+    
+                 <iframe class="iframe checkbox-input-iframe"
+                 src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cinput%2520type%253D%2522checkbox%2522%2520class%253D%2522checkbox%2522%2520value%253D%2522Dogs%2522%2520name%253D%2522demo1%2522%253E%250A%253Cinput%2520type%253D%2522checkbox%2522%2520class%253D%2522checkbox%2522%2520value%253D%2522Swan%2522%2520name%253D%2522demo1%2522%253E%250A%253Cinput%2520type%253D%2522checkbox%2522%2520class%253D%2522checkbox%2522%2520value%253D%2522Goat%2522%2520name%253D%2522demo1%2522%253E%250A%253Cinput%2520type%253D%2522checkbox%2522%2520class%253D%2522checkbox%2522%2520value%253D%2522Crow%2522%2520name%253D%2522demo1%2522%2520disabled%253E%250A"
+                 sandbox="allow-scripts allow-same-origin">
+                 </iframe>
+               </section> 
+
+               <!-- text-utilities-section -->
+    
+               <section class="section" id="textUtilities-container">
+                   <h1>Text Utilities</h1>
+                   <h2>Heading</h2>
+                   <p>Our Component library has all headings from <span>h1</span> to <span>h6</span></p>
+                   <div class="headings-container">
+                       <h1 class="heading">H1 - Heading</h1>
+                       <h2>H2 - Heading</h2>
+                       <h3>H3 - Heading</h3>
+                       <h4>H4 - Heading</h4>
+                       <h5>H5 - Heading</h5>
+                       <h6>H6 - Heading</h6>
+                   </div>
+                   
+                   <iframe class="iframe text-heading-iframe"
+                   src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253EH1%2520-%2520Heading%253C%252Fh1%253E%250A%253Ch2%253EH2%2520-%2520Heading%253C%252Fh2%253E%250A%253Ch3%253EH3%2520-%2520Heading%253C%252Fh3%253E%250A%253Ch4%253EH4%2520-%2520Heading%253C%252Fh4%253E%250A%253Ch5%253EH5%2520-%2520Heading%253C%252Fh5%253E%250A%253Ch6%253EH6%2520-%2520Heading%253C%252Fh6%253E"
+                   sandbox="allow-scripts allow-same-origin">
+                   </iframe>
+    
+                 <h2>Small Text ( Paragraph, Span )</h2>
+                 <p>Both Paragraph and Span has same font style. for paragraph you can use <span>p</span> tag and for <span>span</span> you can use span tag.</p>
+                 <div class="content-container">
+                     <p>P - Paragraph</p>
+                     <span> Span Tag </span>
+                 </div>
+    
+                 <iframe class="iframe small-text-iframe"
+                 src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%253EP%2520-%2520Paragraph%253C%252Fp%253E%250A%253Cspan%253E%2520Span%2520Tag%2520%253C%252Fspan%253E"
+                 sandbox="allow-scripts allow-same-origin">
+                 </iframe>
+    
+                 <h2>Text Align</h2>
+                 <p>The Text align property specifies the horizontal alignment of text in an element.</p>
+                 <p>we have different text alignments like <span>text-left</span> | <span>text-center</span> | <span>text-right</span></p>
+    
+                 <div class="pragraph-container">
+                     <p class="text-left">This is text left example.</p>
+                     <p class="text-center">This is text center example.</p>
+                     <p class="text-right">This is text right example.</p>
+                 </div>
+    
+                 <iframe class="iframe text-align-iframe"
+                 src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-left%2522%253EThis%2520is%2520text%2520left%2520example.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-center%2522%253EThis%2520is%2520text%2520center%2520example.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-right%2522%253EThis%2520is%2520text%2520right%2520example.%253C%252Fp%253E"
+                 sandbox="allow-scripts allow-same-origin">
+                 </iframe>
+               </section>
+
+               <!-- lists-component -->
+
+               <section class="section" id="list-container">
+                <h1>Lists</h1>
+                <p>Lists are used in various places such as <span>navigation bar</span>, <span>article page</span> etc.</p>
+                <h3>Example of Unordered Lists</h3>
+                <p>We have 4 types of lists the default one than the list with <span>circular bullets</span>, list with <span>square bullets</span> and list with <span>no bullets</span>.</p>
+    
+                <div class="list-container unordered-list">
+                    <!-- This is default list -->
+                    <ul>
+                        <li>Item1</li>
+                        <li>Item2</li>
+                        <li>Item3</li>
+                    </ul>
+                    <ul class="list-style-circle">
+                        <li>Item1</li>
+                        <li>Item2</li>
+                        <li>Item3</li>
+                    </ul>
+                    <ul class="list-style-square">
+                        <li>Item1</li>
+                        <li>Item2</li>
+                        <li>Item3</li>
+                    </ul>
+                    <ul class="list-style-none">
+                        <li>Item1</li>
+                        <li>Item2</li>
+                        <li>Item3</li>
+                    </ul>
+                </div>
+                
+                <iframe class="iframe unordered-list-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520This%2520is%2520default%2520list%2520--%253E%250A%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%253Cli%253EItem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253EItem2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253EItem3%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253Cul%2520class%253D%2522list-style-circle%2522%253E%250A%2520%2520%2520%2520%2520%253Cli%253EItem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253EItem2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253EItem3%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253Cul%2520class%253D%2522list-style-square%2522%253E%250A%2520%2520%2520%2520%2520%253Cli%253EItem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253EItem2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253EItem3%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253Cul%2520class%253D%2522list-style-none%2522%253E%250A%2520%2520%2520%2520%2520%253Cli%253EItem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253EItem2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253EItem3%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h2>Example of Ordered Lists</h2>
+                <p>We have 4 types of lists the default one than the list with <span>circular bullets</span>, list with <span>square bullets</span> and list with <span>no bullets</p>
+    
+                <div class="list-container ordered-list">
+                    <!-- This is default list -->
+                    <ol>
+                        <li>list Item1</li>
+                        <li>list Item2</li>
+                        <li>list Item3</li>
+                    </ol>
+                    <ol class="list-style-decimal-leading-zero">
+                        <li>list Item1</li>
+                        <li>list Item2</li>
+                        <li>list Item3</li>
+                    </ol>
+                    <ol class="list-style-lowerCase-alphabet">
+                        <li>list Item1</li>
+                        <li>list Item2</li>
+                        <li>list Item3</li>
+                    </ol>
+                    <ol class="list-style-upperCase-alphabet">
+                        <li>list Item1</li>
+                        <li>list Item2</li>
+                        <li>list Item3</li>
+                    </ol>
+                    <ol class="list-style-lower-roman">
+                        <li>list Item1</li>
+                        <li>list Item2</li>
+                        <li>list Item3</li>
+                    </ol>
+                    <ol class="list-style-upper-roman">
+                        <li>list Item1</li>
+                        <li>list Item2</li>
+                        <li>list Item3</li>
+                    </ol>
+                </div>
+                <iframe class="iframe ordered-list-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520This%2520is%2520default%2520list%2520--%253E%250A%2520%2520%253Col%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item3%253C%252Fli%253E%250A%2520%2520%253C%252Fol%253E%250A%2520%2520%253Col%2520class%253D%2522list-style-decimal-leading-zero%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item3%253C%252Fli%253E%250A%2520%2520%253C%252Fol%253E%250A%2520%2520%253Col%2520class%253D%2522list-style-lowerCase-alphabet%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item3%253C%252Fli%253E%250A%2520%2520%253C%252Fol%253E%250A%2520%2520%253Col%2520class%253D%2522list-style-upperCase-alphabet%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item3%253C%252Fli%253E%250A%2520%2520%253C%252Fol%253E%250A%2520%2520%253Col%2520class%253D%2522list-style-lower-roman%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%253Col%2520class%253D%2522list-style-upper-roman%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Elist%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%253C%252Fol%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+    
+                <h2>Example of Inline Lists</h2>
+                <div class="list-container">
+                    <ul class="list-style-inline">
+                        <li>Inline List</li>
+                        <li>Inline List</li>
+                        <li>Inline List</li>
+                    </ul>
+                </div>
+                <iframe class="iframe inline-list-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cul%2520class%253D%2522list-style-inline%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EInline%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EInline%2520List%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EInline%2520List%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+               </section>
+
+               <!-- navigation-component -->
+
+               <section class="section" id="navigation-container">
+                <h1>Navigation</h1>
+                <p>The <span>nav</span> HTML element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents.</p>
+    
+                <p>In this example we have designed nav bar with nested menu, if you hover over the profile you will see it.</p>
+    
+                <p>we have also added responsiveness to this navbar if screen size will decreased it will show you a hamburger icon.</p>
+    
+                <div class="navigation-navbar-container">
+                    <nav class="navigation-navbar" aria-label="true">
+                        <div class="navigation-logo">FasterUI</div>
+                        <ul class="navigation-links">
+                            <li><a class="navigation-link" href="">Home</a></li>
+                            <li><a class="navigation-link" href="">About</a></li>
+                            <li><a class="navigation-link" href="">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+    
+                <iframe
+                class="iframe navigation-nav-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=651&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522logo%2522%253EFasterUI%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522links%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520class%253D%2522link%2522%2520href%253D%2522%2522%253EHome%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520class%253D%2522link%2522%2520href%253D%2522%2522%253EAbout%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520class%253D%2522link%2522%2520href%253D%2522%2522%253EContact%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fnav%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+               </section>
+
+             <!-- modal section -->
+
+             <section class="section" id="modal-container">
+                <h1>Modal</h1>
+                <p>Modals are pop-ups that are used to show important information to the user. <br>
+                Modals are different from Dialog Box as the user can't continue work on site until user responds to the Modal. <br>
+                While in case of Dialog Box, user can continue working on site without necessarily interacting with it.</p>
+                <br>
+                <br>
+                <h2>Modal Example</h2>
+                <div class="modals-container">
+                    <button class="show-btn btn primary-btn">Show Modal</button>
+                </div>
+    
+                <div class="modal-content">
+                    <div class="modal">
+                        <button class="close-btn">X</button>
+                        <div class="modal-heading">Modal Header</div>
+                        <div class="modal-text">Modal Text</div>
+                        <div class="modal-btns">
+                           <button class="btn primary-btn">Modal Action 1</button>
+                           <button class="btn secondary-btn">Modal Action 2</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <iframe class="iframe modal-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=button%2520onclick%253D%2522showModal%28%29%2522%2520class%253D%2522btn%2520primary-btn%2522%253EShow%2520Modal%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520onclick%253D%2522closeModal%28%29%2522%2520class%253D%2522close-btn%2520dismiss-btn%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-heading%2522%253EModal%2520Header%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-text%2522%253EModal%2520Text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EModal%2520Action%25201%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary-btn%2522%253EModal%2520Action%25202%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+               </section>
+
+               <!-- simplified grid section -->
+
+               <section class="section" id="simplified-grid-container">
+                <h1>Grid</h1>
+                <h2>Simplified Grid</h2>
+                <p>Grids are used to guide the designers with how and where to place elements on the page.</p>
+                <p>We have multiple grid options in this library. you can use any of then depends on your sub-childs</p>
+                <p>Classes we provide - <span>grid-2</span> | <span>grid-3</span> | <span>grid-4</span> | <span>grid-5</span> | <span>grid-6</span> | <span>grid-responsive</span></p>
+    
+                <div class="grids-container">
+                    <h3>Grid With Two Items</h3>
+                    <div class="grid grid-2">
+                        <div class="child">one</div>
+                        <div class="child">two</div>
+                    </div>
+    
+                    <h3>Grid With Three Items</h3>
+                    <div class="grid grid-3">
+                        <div class="child">one</div>
+                        <div class="child">two</div>
+                        <div class="child">three</div>
+                    </div>
+    
+                    <h3>Grid With Four Items</h3>
+                    <div class="grid grid-4">
+                        <div class="child">one</div>
+                        <div class="child">two</div>
+                        <div class="child">three</div>
+                        <div class="child">four</div>
+                    </div>
+    
+                    <h3>Grid With Five Items</h3>
+                    <div class="grid grid-5">
+                        <div class="child">one</div>
+                        <div class="child">two</div>
+                        <div class="child">three</div>
+                        <div class="child">four</div>
+                        <div class="child">five</div>
+                    </div>
+    
+                    <h3>Grid With Six Items</h3>
+                    <div class="grid grid-6">
+                        <div class="child">one</div>
+                        <div class="child">two</div>
+                        <div class="child">three</div>
+                        <div class="child">four</div>
+                        <div class="child">five</div>
+                        <div class="child">six</div>
+                    </div>
+    
+                    <h3>Grid With Responsiveness Items</h3>
+                    <div class="grid responsive-grid">
+                        <div class="child">one</div>
+                        <div class="child">two</div>
+                        <div class="child">three</div>
+                        <div class="child">four</div>
+                    </div>
+                </div>
+    
+                <iframe class="iframe grid-container-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28175%2C191%2C211%2C0.97%29&t=seti&wt=none&l=javascript&width=651&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EGrid%2520With%2520Two%2520Items%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520grid-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Eone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Etwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EGrid%2520With%2520Three%2520Items%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520grid-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Eone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Etwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Ethree%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EGrid%2520With%2520Four%2520Items%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520grid-4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Eone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Etwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Ethree%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Efour%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EGrid%2520With%2520Five%2520Items%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520grid-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Eone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Etwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Ethree%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Efour%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Efive%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EGrid%2520With%2520Six%2520Items%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520grid-6%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Eone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Etwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Ethree%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Efour%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Efive%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Esix%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EGrid%2520With%2520Responsiveness%2520Items%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid%2520responsive-grid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Eone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Etwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Ethree%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child%2522%253Efour%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+    
+                <h2>Grid of 5 Items using template area property</h2>
+                <div class="grid-template-area-property">
+                    <div class="header">Header</div>
+                    <div class="left-sidebar">Left Sidebar</div>
+                    <div class="main-content">Main Content</div>
+                    <div class="right-sidebar">right Sidebar</div>
+                    <div class="grid-footer">Footer</div>
+                </div>
+    
+                <iframe class="iframe grid-template-area-property-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-template-area-property%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header%2522%253EHeader%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522left-sidebar%2522%253ELeft%2520Sidebar%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-content%2522%253EMain%2520Content%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522right-sidebar%2522%253Eright%2520Sidebar%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253EFooter%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+               </section>
+               
+               <!-- rating section -->
+
+               <section class="section" id="rating-container">
+                    <h2>Ratings</h2>
+                    <p>Rating components can be used as read-only badge or in reviews section. Can be used in reviews section as form too.</p>
+                       <div class="rating-card">
+                           <div class="rating-heading">How Was Your Experience?</div>
+                           <div class="rating-stars-container">
+                               <div class="star">&#9734</div>
+                               <div class="star">&#9734</div>
+                               <div class="star">&#9734</div>
+                               <div class="star">&#9734</div>
+                               <div class="star">&#9734</div>
+                           </div>
+                           <div class="current-rating"> 0 out of 5</div>
+                       </div>
+                       <iframe class="iframe rating-iframe"
+                       src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=776.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-card%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-heading%2522%253EHow%2520Was%2520Your%2520Experience%253F%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-stars-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%2526%25239734%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%2526%25239734%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%2526%25239734%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%2526%25239734%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%2526%25239734%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522current-rating%2522%253E%25200%2520out%2520of%25205%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                       sandbox="allow-scripts allow-same-origin">
+                       </iframe>
+               </section>
+
+               <!-- range slider -->
+
+               <section class="section" id="range-slider-container">
+                <h2>Range Slider</h2>
+                <p>This component can be used by users to make selections from a range of values.</p>
+                <div class="range-slider">
+                    <h2>Price Range</h2>
+                    <div class="price-input">
+                        <div class="field">
+                            <span>Min</span>
+                            <input type="number" class="input-min" value="2500">
+                        </div>
+                        <div class="separator">-</div>
+                        <div class="field">
+                         <span>Max</span>
+                         <input type="number" class="input-max" value="20000">
+                        </div>
+                     </div>
+     
+                     <div class="slider">
+                         <div class="progress">
+     
+                         </div>
+                     </div>
+                     <div class="range-input">
+                         <input type="range" class="range-min" min="0" max="20000" value="2500" step="100">
+                         <input type="range" class="range-max" min="0" max="20000" value="20000" step="100">
+                     </div>
+                </div>
+
+
+                <iframe class="iframe range-slider-iframe"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=776.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522range-slider%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%253EPrice%2520Range%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EMin%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522number%2522%2520class%253D%2522input-min%2522%2520value%253D%25222500%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522separator%2522%253E-%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522field%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EMax%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522number%2522%2520class%253D%2522input-max%2522%2520value%253D%252220000%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522progress%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522range-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520class%253D%2522range-min%2522%2520min%253D%25220%2522%2520max%253D%252220000%2522%2520value%253D%25222500%2522%2520step%253D%2522100%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520class%253D%2522range-max%2522%2520min%253D%25220%2522%2520max%253D%252220000%2522%2520value%253D%252220000%2522%2520step%253D%2522100%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+               </section>
+
+               <section class="section" id="toast-container">
+                   <h2>Toast</h2>
+                   <p>This component can be used for toast or snackbar component. Toast is mostly used to show feedback message. Snackbar is to used show message that need user action</p>
+                   <div class="toast-content">
+                    <div class="alert success-alert">You Are Successfully Logout.<span class="toast-close-btn"> X </span></div>
+                   </div>
+
+                   <div class="toast-btn-container">
+                       <button class="btn primary-btn toast-btn">Show Toast</button>
+                   </div>
+                   <iframe class="iframe toast-iframe"
+                   src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=cobalt&wt=none&l=auto&width=853.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-content%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520success-alert%2522%253EYou%2520Are%2520Successfully%2520Logout.%253Cspan%2520class%253D%2522toast-close-btn%2522%253E%2520X%2520%253C%252Fspan%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                   sandbox="allow-scripts allow-same-origin">
+                   </iframe>
+               </section>
+
+        </div>   
+    </div> 
+
+    <script src="./components/components.js"></script>
+</body>
+</html>

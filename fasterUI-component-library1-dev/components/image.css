@@ -1,0 +1,72 @@
+@import url(../styles.css);
+
+.image-responsive{
+    padding: 2rem;
+}
+
+.image-responsive img{
+    height: 100%;
+    width: 100%;
+}
+
+.image-circular{
+    padding: 2rem;
+}
+
+.image-circular img{
+    border-radius: 50%;
+    height: 40rem;
+    width: 40rem;
+    object-fit: fill;
+}
+
+.responsive-img-iframe{
+    width: 64rem; 
+    height: 17.5rem; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
+
+.circular-img-iframe{
+    width: 64rem; 
+    height: 17.5rem; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
+
+@media screen and (max-width:640px) {
+    .image-responsive img {
+        height: 90%;
+        width: 75%;
+    }
+
+    .image-circular img {
+        height: 27rem;
+        width: 27rem;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .image-responsive{
+        padding: 0;
+    }
+    
+    .image-responsive img{
+        height: 90%;
+        width: 80%;
+    }
+    
+    .image-circular{
+        padding: 0;
+    }
+    
+    .image-circular img{
+        border-radius: 50%;
+        height: 20rem;
+        width: 20rem;
+        object-fit: fill;
+    }
+}

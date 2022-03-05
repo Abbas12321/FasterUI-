@@ -1,0 +1,34 @@
+@import url('./usage.css');
+@import url('./avatar.css');
+@import url('./alert.css');
+@import url('./badge.css');
+@import url('./button.css');
+@import url('./card.css');
+@import url('./image.css');
+@import url('./input.css');
+@import url('./textUtilities.css');
+@import url('./list.css');
+@import url('./navigation.css');
+@import url('./modal.css');
+@import url('./simplifiedGrid.css');
+@import url('./rating.css');
+@import url('./range-slider.css');
+@import url('./toast.css');
+
+@media screen and (max-width:1024px) {
+    .iframe{
+        width: 750px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .iframe{
+        width: 550px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .iframe{
+        width: 375px;
+    }
+}
